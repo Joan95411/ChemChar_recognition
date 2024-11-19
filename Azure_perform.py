@@ -11,7 +11,7 @@ import numpy as np
 
 def Azure_detect_document_from_excel(excel_file_path):
     service_options = sdk.VisionServiceOptions('https://chemredi.cognitiveservices.azure.com/',
-                                               'c7888842575a4bb398b8c6b0165b82fc')
+                                               '')
 
     # Get the directory path of the Excel file
     directory = os.path.dirname(excel_file_path)
