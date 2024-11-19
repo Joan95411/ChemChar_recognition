@@ -1,7 +1,7 @@
 import azure.ai.vision as sdk
 
 service_options = sdk.VisionServiceOptions('https://chemredi.cognitiveservices.azure.com/',
-                                               'c7888842575a4bb398b8c6b0165b82fc')
+                                               '')
 
 vision_source = sdk.VisionSource(filename="test/Page2_17_8.jpeg")
 
