@@ -3,8 +3,8 @@ import boto3
 import io
 from PIL import Image, ImageDraw
 
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIARYT7CN2MVCINCTMO'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+os.environ['AWS_ACCESS_KEY_ID'] = ''
+os.environ['AWS_SECRET_ACCESS_KEY'] = ''
 # Analyzes text in a document stored in an S3 bucket. Display polygon box around text and angled text
 
 
